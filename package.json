@@ -1,0 +1,16 @@
+{
+  "name": "@saggitarius/package-scanner",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@saggitarius/filesystem": "git://github.com/dhindustries/saggitarius-filesystem.git",
+    "@saggitarius/package": "git://github.com/dhindustries/saggitarius-package.git",
+    "@saggitarius/typing": "git://github.com/dhindustries/saggitarius-typing.git",
+    "@saggitarius/path": "git://github.com/dhindustries/saggitarius-path.git"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "typescript": "^3.9.6"
+  }
+}
